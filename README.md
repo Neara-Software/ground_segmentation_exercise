@@ -1,6 +1,6 @@
 ## Point cloud segmentation exercise
 
-Neara recently launched a [new product](https://www.neara.com/revolutionary-automated-lidar-classification/) for automatic LiDAR classification. We have to deal with a lot of LiDAR and the point cloud files that come from them. Often in the hundreds of millions of points to billions of points.
+Neara recently launched a [new product](https://www.neara.com/revolutionary-automated-lidar-classification/) for automatic LiDAR classification. We have to deal with a lot of LiDAR point cloud files -- often in the hundreds of millions to billions of points.
 
 This exercise provides a bit of exposure to point cloud processing and segmentation. We captured a bit of LiDAR on an iPad Pro ([./data/Pole1.las](./Pole.las)). When visualized, it looks like this:
 
@@ -20,7 +20,7 @@ pipenv run jupyter notebook
 ## Requirements & constraints
 Your task is to do a little bit of segmentation to detect the ground and colour it green.
 
-- document your approach. What heuristics did you use? What algorithms?
+- document your approach. What heuristics did you use? What / how the algorithm works, their tradeoffs and how you could improve it if you spent more time on it.
 - you can use libraries of your choosing for helper functions and classes but you cannot use functions that would implement the bulk of the algorithm i.e. you can use `sklearn.linear_model.LinearRegression` but you can't use something like `library.detect_ground()`
 - output the final colouring using the provided visualize() function or you can plot the images with something like matplotlib. If you do it file based, it could be `ground[0-5].png` in the current directory
 
