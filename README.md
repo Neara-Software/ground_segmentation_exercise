@@ -24,7 +24,7 @@ Your task is to do a little bit of segmentation to detect the ground and colour 
 - you can use libraries of your choosing for helper functions and classes but you cannot use functions that would implement the bulk of the algorithm i.e. you can use `sklearn.linear_model.LinearRegression` but you can't use something like `library.detect_ground()`
 - output the final colouring using the provided visualize() function or you can plot the images with something like matplotlib. If you do it file based, it could be `ground[0-5].png` in the current directory
 
-Bonus points if you can derive extra segments of the pole or the surroundings.
+Bonus points if you can derive extra segments of the pole or the surroundings. There is a reference link at the bottom to some datasets if you want to take an ML approach.
 
 ## Inputs
 Scans are available in the [./data](./data/) folder. You can assume the biggest and main vertical stick is the power pole.
@@ -58,3 +58,5 @@ There's a sample solution at [naive_solution.ipynb](./naive_solution.ipynb) whic
 http://lidarview.com/
 
 http://www.open3d.org/docs/release/
+
+https://paperswithcode.com/datasets?mod=point-cloud
